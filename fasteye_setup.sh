@@ -8,9 +8,9 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull llama3:8b
 # Python environment setup
 sudo apt update
-sudo apt install python3.10-venv -y
-python3 -m venv LogWise
-cd LogWise
+sudo DEBIAN_FRONTEND=noninteractive apt install python3.10-venv -y
+python3 -m venv FastEye
+cd FastEye
 # Create Streamlit secrets.toml
 mkdir -p .streamlit
 touch .streamlit/secrets.toml
@@ -20,11 +20,11 @@ echo 'model = "llama3:8b"' >> .streamlit/secrets.toml
 # Install Python dependencies
 source bin/activate
 pip install streamlit requests
-wget https://raw.githubusercontent.com/vinil-v/FastEye/refs/heads/main/fasteye_setup.sh
+wget https://raw.githubusercontent.com/vinil-v/FastEye/refs/heads/main/fasteye.py
 
 #build run script
 touch run.sh
 echo "#!/bin/bash" >> run.sh
-echo "streamlit run logwise.py" >> run.sh
+echo "streamlit run fasteye.py" >> run.sh
 chmod +x run.sh
-echo "Setup complete. Run './run.sh' to start LogWise."
+echo "Setup complete. cd to FastEye and Run './run.sh' to start FastEye."
