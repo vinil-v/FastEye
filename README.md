@@ -2,8 +2,6 @@
 
 Cloud deployments are growing at breakneck speed. With complex system architectures designed to support varied technology deployments and diverse customer needs, the **volume and diversity of operational data** are expanding exponentially.  
 
-Azure Fleet has grown from **5 million units** to over **30 million**, with projections pointing toward **100 million systems** in the next five years.  
-
 This scale introduces a critical challenge: **diagnosing and identifying failure root causes quickly and accurately** across a vast and heterogeneous infrastructure.
 
 ---
@@ -39,8 +37,7 @@ Built on large language models, it revolutionizes incident response by deliverin
 - ⏱️ **Timestamp auto-detection** with time-based filtering  
 - 🧩 **Minimal setup** with a clean, intuitive interface  
 - 🚫 **Noise reduction** to eliminate irrelevant anomalies  
-
----
+- 💻 Local installation for individual engineers, ensuring easy accessibility and tool-at-fingertip convenience
 
 ## Why FastEye?
 
@@ -50,11 +47,9 @@ In a landscape where **speed and precision** matter, FastEye empowers technical 
 - Maintain system reliability  
 - Scale confidently—no matter the complexity  
 
----
-
 ##  Quick Setup
 
-Run the following command on your Linux system:
+Run the following command on your Ubuntu Linux system:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/vinil-v/LogWise/refs/heads/main/fasteye_setup.sh | bash
