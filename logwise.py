@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-LogWise - Accelerate incident resolution with AI-powered log analysis,
+FastEye - Accelerate incident resolution with AI-powered log analysis,
 Dropdown for exact event time, Duration, hidden Ollama config, and download RCA report as text file.
 Author - Vinil Vadakkepurakkal
 Date - 18/9/25
@@ -119,11 +119,11 @@ Analyze the following Linux syslog entries and provide a detailed RCA report.
 def main(): 
 #    st.title("LogWise")
 #    st.write("Accelerate incident resolution with AI-powered log analysis")
-    st.set_page_config(page_title="LogWise")
+    st.set_page_config(page_title="FastEye")
     st.markdown(
     """
     <div style="text-align: center;">
-        <h1 style="margin-bottom: 0;">LogWise</h1>
+        <h1 style="margin-bottom: 0;">FastEye</h1>
         <p style="font-size:18px; font-style: italic; margin-top: 0; color: #555;">
             Accelerate incident resolution with AI-powered log analysis
         </p>
@@ -150,7 +150,7 @@ def main():
     </style>
 
     <div class="footer">
-        LogWise MVP Project – Hackathon 2025 By Vinil, Jiyesh, and Christian
+        FastEye MVP Project – Hackathon 2025 By Vinil, Jiyesh, and Christian
     </div>
     """,
     unsafe_allow_html=True,
