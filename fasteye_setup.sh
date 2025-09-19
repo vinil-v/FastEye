@@ -20,7 +20,7 @@ echo 'model = "llama3:8b"' >> .streamlit/secrets.toml
 # Install Python dependencies
 source bin/activate
 pip install streamlit requests
-wget https://raw.githubusercontent.com/vinil-v/LogWise/refs/heads/main/logwise.py
+wget https://raw.githubusercontent.com/vinil-v/FastEye/refs/heads/main/fasteye_setup.sh
 
 #build run script
 touch run.sh

@@ -57,5 +57,5 @@ In a landscape where **speed and precision** matter, FastEye empowers technical 
 Run the following command on your Linux system:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/vinil-v/LogWise/refs/heads/main/logwise_setup.sh | bash
+curl -sSL https://raw.githubusercontent.com/vinil-v/LogWise/refs/heads/main/fasteye_setup.sh | bash
 ```
