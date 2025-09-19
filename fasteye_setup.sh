@@ -25,6 +25,8 @@ wget https://raw.githubusercontent.com/vinil-v/FastEye/refs/heads/main/fasteye.p
 #build run script
 touch run.sh
 echo "#!/bin/bash" >> run.sh
-echo "streamlit run fasteye.py" >> run.sh
+source FastEye/bin/activate >> run.sh
+echo "streamlit run FastEye/fasteye.py" >> run.sh
 chmod +x run.sh
-echo "Setup complete. cd to FastEye and Run './run.sh' to start FastEye."
+echo "Setup complete. Run './FastEye/run.sh' to start FastEye."
+echo "Congratualations ! happy FastEyeing"
