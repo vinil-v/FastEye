@@ -8,7 +8,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull llama3:8b
 # Python environment setup
 sudo apt update
-sudo apt install python3.10-venv
+sudo apt install python3.10-venv -y
 python3 -m venv LogWise
 cd LogWise
 # Create Streamlit secrets.toml
