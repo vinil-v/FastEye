@@ -150,7 +150,7 @@ def main():
     </style>
 
     <div class="footer">
-        FastEye MVP Project – Hackathon 2025 By Vinil, Jiyesh, and Christian
+        FastEye - AI-powered log analysis tool | Developed by <a href=" target="_blank ">Vinil Vadakkepurakkal</a> 
     </div>
     """,
     unsafe_allow_html=True,
