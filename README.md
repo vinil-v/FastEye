@@ -12,6 +12,8 @@ Built on large language models, it revolutionizes incident response by deliverin
 - 🚫 **Noise reduction** to eliminate irrelevant anomalies  
 - 💻 Local installation for individual engineers, ensuring easy accessibility and tool-at-fingertip convenience
 
+<img src="https://github.com/vinil-v/FastEye/blob/main/image/fasteye.gif" >
+
 ## Why FastEye?
 
 In a landscape where **speed and precision** matter, FastEye empowers technical teams to:
@@ -20,10 +22,10 @@ In a landscape where **speed and precision** matter, FastEye empowers technical 
 - Maintain system reliability  
 - Scale confidently—no matter the complexity  
 
-##  Quick Setup
+## Quick Setup
 
 Run the following command on your Ubuntu Linux system:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/vinil-v/LogWise/refs/heads/main/fasteye_setup.sh | bash
+curl -sSL https://raw.githubusercontent.com/vinil-v/FastEye/refs/heads/main/fasteye_setup.sh | bash
 ```
