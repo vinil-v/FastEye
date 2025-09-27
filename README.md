@@ -10,7 +10,8 @@ Built on large language models, it revolutionizes incident response by deliverin
 - ⏱️ **Timestamp auto-detection** with time-based filtering  
 - 🧩 **Minimal setup** with a clean, intuitive interface  
 - 🚫 **Noise reduction** to eliminate irrelevant anomalies  
-- 💻 Local installation for individual engineers, ensuring easy accessibility and tool-at-fingertip convenience
+- 💻 **Local installation** for individual engineers, ensuring easy accessibility and tool-at-fingertip convenience
+- 🧾 **RAG** for internal docs and error codes to surface relevant insights efficiently
 
 <img src="https://github.com/vinil-v/FastEye/blob/main/image/fasteye.gif" >
 
